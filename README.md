@@ -2,9 +2,9 @@
 📌 README.md - Voxel51 Hackathon: AI-Powered Driver Safety System
 🚀 Using YOLOv5 & FiftyOne to Detect Drowsiness & Phone Usage in Real-Time
 
-👨‍💻 Developed by: Isaac Gbaba & Team
+👨‍💻 Developed by: Isaac Gbaba, Osman Barrie, Paul Tran
 📅 Hackathon: Voxel51 Hackathon 2024
-📍 Tools Used: FiftyOne, YOLOv5, PyTorch, OpenCV, Raspberry Pi
+📍 Tools Used: FiftyOne, YOLOv5, PyTorch,
 
 📌 Project Overview
 🎯 Goal:
@@ -187,8 +187,5 @@ GPIO.cleanup()
 ✅ We tracked how long these events happen using a Python script
 ✅ We designed an alert system to notify the driver in real-time
 ✅ Next, we integrate everything into a real car! 🚗💨
-
-🔗 GitHub Repo: [Add Your Link Here]
-📨 Contact: [Your Name & Email]
 
 🚀 Voxel51 Hackathon Project – Built with AI & FiftyOne
