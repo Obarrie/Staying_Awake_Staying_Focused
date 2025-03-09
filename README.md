@@ -25,41 +25,6 @@ Improve dataset and retrain
 🔹 Blink hazard lights or play a loud sound if drowsy 🚨😴
 🔹 Wire detection to the car's electrical system (Raspberry Pi/Arduino)
 
-Python Code for Raspberry Pi GPIO Alerts
-python
-Copy
-Edit
-import RPi.GPIO as GPIO
-import time
-
-# Define GPIO Pins for alerts
-HORN_PIN = 17
-HAZARD_LIGHTS_PIN = 27
-RADIO_ALERT_PIN = 22
-
-# Set up GPIO
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(HORN_PIN, GPIO.OUT)
-GPIO.setup(HAZARD_LIGHTS_PIN, GPIO.OUT)
-GPIO.setup(RADIO_ALERT_PIN, GPIO.OUT)
-
-def alert_drowsiness():
-    print("⚠️ Drowsiness detected! Activating hazard lights...")
-    GPIO.output(HAZARD_LIGHTS_PIN, GPIO.HIGH)
-    time.sleep(5)  # Keep lights on for 5 seconds
-    GPIO.output(HAZARD_LIGHTS_PIN, GPIO.LOW)
-
-def alert_phone_usage():
-    print("⚠️ Phone detected! Activating horn...")
-    GPIO.output(HORN_PIN, GPIO.HIGH)
-    time.sleep(1)  # Beep horn for 1 second
-    GPIO.output(HORN_PIN, GPIO.LOW)
-
-# Example: Trigger alerts
-alert_drowsiness()
-alert_phone_usage()
-
-GPIO.cleanup()
 📌 Expected Outcome: If drowsy, hazard lights blink. If using a phone, horn beeps.
 
 🎯 Final Steps
