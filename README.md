@@ -1,5 +1,5 @@
 # Staying_Awake_Staying_Focused
-📌 README.md - Voxel51 Hackathon: AI-Powered Driver Safety System
+📌 Voxel51 Hackathon: AI-Powered Driver Safety System
 🚀 Using YOLOv5 & FiftyOne to Detect Drowsiness & Phone Usage in Real-Time
 
 👨‍💻 Developed by: Isaac Gbaba, Osman Barrie, Paul Tran
